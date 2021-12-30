@@ -140,5 +140,55 @@ footer {
 h3 {
   padding: 25px;
 }
-@media screen and (max-width: 700px) {
+@media (max-width: 700px) {
+  header img {
+    padding: 15px;
+    width: 60px;
+    top: 10px;
+    left: 10px;
+    float: left;
+  }
+  header h1 {
+    font-size: 20px;
+  }
+  header h2 {
+    font-size: 15px;
+    text-align: center;
+  }
+  nav {
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+  }
+  .nav-item {
+    font-size: 9px;
+    padding: 5px;
+    margin: 0px 1px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    font-weight: 600;
+    text-decoration: none;
+    color: black;
+  }
+  .nav-item:hover {
+    color: white;
+    background: rgb(20, 20, 20);
+    cursor: pointer;
+  }
+  .dep {
+    background: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 60px;
+  }
+  .departments {
+    width: 90%;
+    text-align: center;
+    color: antiquewhite;
+    padding: 10px;
+  }
+  .discription {
+    padding: 60px;
+  }
 }
