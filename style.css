@@ -43,12 +43,7 @@ nav {
   background: rgb(20, 20, 20);
   cursor: pointer;
 }
-/* .main img {
-  display: block;
-  margin: 75px auto;
-  margin-top: 10px;
-  width: 80%;
-} */
+
 .header-primary {
   text-align: center;
 
@@ -73,8 +68,12 @@ nav {
 .departments {
   width: 80%;
   text-align: center;
-  color: antiquewhite;
+  color: rgb(5, 5, 5);
   padding: 20px;
+  width: 340px;
+  margin: 0px 20px;
+  box-sizing: border-box;
+  background: linear-gradient(aliceblue, aqua);
 }
 h1 {
   padding: 20px;
@@ -83,6 +82,19 @@ footer {
   background: rgb(180, 180, 3);
   text-align: center;
   padding: 50px;
+}
+.footer-group img {
+  width: 40px;
+  padding: 8px;
+  cursor: pointer;
+}
+.footer-group {
+  margin: auto;
+  margin-top: 34px;
+  background: rgb(239, 240, 245);
+  width: 300px;
+  border-radius: 30px;
+  padding-top: 2px;
 }
 #slider {
   overflow: hidden;
